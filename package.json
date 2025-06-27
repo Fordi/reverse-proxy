@@ -1,11 +1,18 @@
 {
   "name": "@fordi-org/reverse-proxy",
-  "version": "1.0.0",
-  "description": "",
-  "bin": "index.js",
+  "version": "1.0.1",
+  "description": "A simple reverse HTTP proxy, designed for easy, but flexible, configuration.",
+  "bin": {
+    "reverse-proxy": "index.js"
+  },
   "main": "proxy.js",
   "type": "module",
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Bryan Elliott <fordiman@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/Fordi/reverse-proxy",
+  "bugs": {
+    "url": "https://github.com/Fordi/reverse-proxy/issues"
+  },
+  "repository": "github:Fordi/reverse-proxy"
 }
