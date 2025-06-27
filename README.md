@@ -32,4 +32,4 @@ await createProxy({ /* ... configuration ... */ });
 
 ### Configuration
 
-The configuration object has a schema as defined in [https://github.com/Fordi/reverse-proxy/blob/main/config.d.ts](./config.d.ts).  If using a configuration file, the object must be that file's default export.
+The configuration object has a schema as defined in [./config.d.ts](./config.d.ts).  If using a configuration file, the object must be that file's default export.
